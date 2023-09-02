@@ -31,6 +31,7 @@
             "style": "kebab-case"
           }
         ],
+        "@angular-eslint/component-class-suffix": ["off"],
         "semi": ["error", "never"],
         "quotes": ["error", "single"],
         "no-console": ["warn"],
