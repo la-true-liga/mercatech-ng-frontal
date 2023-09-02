@@ -1,0 +1,7 @@
+{
+  "name": "mercatech",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
