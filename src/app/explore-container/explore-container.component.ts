@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input } from '@angular/core'
 
 @Component({
   selector: 'app-explore-container',
@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class ExploreContainerComponent {
 
-  @Input() name?: string;
+  @Input() public name?: string;
 
 }
