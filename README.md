@@ -2,21 +2,33 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
-## Development server
+## Start a development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+You will need node version 18. (nvm use 18, ...)
+
+Run `ionic serve` for a dev server. Navigate to `http://localhost:8100/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`...
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ionic build` to build the project. The build artifacts will be stored in the `www/` directory.
+
+You can also build the project for android or ios with following commands:
+
+`ionic cap add ios` or `ionic cap add android`, so builds are stored at android/ios folder.
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm run test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Linter
+
+Yeah!! We have Linter :D
+
+just run `npm run lint`
 
 ## Running end-to-end tests
 
