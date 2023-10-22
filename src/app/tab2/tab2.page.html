@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      List
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,5 +13,22 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
-</ion-content>
+  <ion-searchbar placeholder="Custom Placeholder" [(ngModel)]="searchQuery" (ngModelChange)="searchQueryChanged()"></ion-searchbar>
+
+
+        <!--<app-chip-item></app-chip-item>-->
+        <ion-row>
+        <app-chip-item [chipText]="'Pescado'"></app-chip-item>
+        <app-chip-item [chipText]="'Marisco'"></app-chip-item>
+        <app-chip-item [chipText]="'Leche'"></app-chip-item>
+        <app-chip-item [chipText]="'Huevo'"></app-chip-item>
+        <app-chip-item [chipText]="'Gluten'"></app-chip-item>
+        <app-chip-item [chipText]="'Mostaza'"></app-chip-item>
+        <app-chip-item [chipText]="'Sésamo'"></app-chip-item>
+      </ion-row>
+
+
+      <ion-content>
+        <app-list-item *ngFor="let elemento of elementos; let i = index" [itemText]="elemento" (deleteItem)="borrarElemento(i)"></app-list-item>
+      </ion-content>
+<!-- Agrega más elementos según sea necesario -->
