@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ChipItemComponent  implements OnInit {
   @Input() public chipText = 'chip';
-  #isActive = false;
+  public isActive = false;
 
 
   public ngOnInit(): void {
@@ -17,7 +17,7 @@ export class ChipItemComponent  implements OnInit {
     //tus muertos Ale terrestre
   }
 
-  private toggleChip(): void {
-    this.#isActive = !this.#isActive;
+  public toggleChip(): void {
+    this.isActive = !this.isActive;
   }
 }
