@@ -12,15 +12,18 @@ const MIN_VALUE = 1;
 
 export class ListItemComponent  implements OnInit {
 
-  counter: number = 1;
+  public counter = 1;
 
   @Input()
   itemText!: string;
   @Output() deleteItem = new EventEmitter<void>();
 
-  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { let tusmuertos = 'Ale';
+  tusmuertos = 'Ale terrestre';
+  tusmuertos;
+  //tus muertos Ale terrestre
+}
 
   onDeleteClick() {
     // Emitir un evento para notificar al componente padre que se debe borrar este elemento

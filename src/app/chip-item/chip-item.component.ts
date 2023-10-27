@@ -6,14 +6,18 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./chip-item.component.scss'],
 })
 export class ChipItemComponent  implements OnInit {
-  @Input() chipText: string = 'chip';
-  isActive: boolean = false;
-  constructor() { }
+  @Input() public chipText = 'chip';
+  #isActive = false;
 
-  toggleChip() {
-    this.isActive = !this.isActive;
+
+  public ngOnInit(): void {
+    let tusmuertos = 'Ale';
+    tusmuertos = 'Ale terrestre';
+    tusmuertos;
+    //tus muertos Ale terrestre
   }
 
-  ngOnInit() {}
-
+  private toggleChip(): void {
+    this.#isActive = !this.#isActive;
+  }
 }

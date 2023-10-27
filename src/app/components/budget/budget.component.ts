@@ -6,10 +6,12 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./budget.component.scss'],
 })
 export class BudgetComponent  implements OnInit {
-  @Input() public name: string = 'Marujas'
+  @Input() public name = 'Marujas'
 
-  constructor() { }
-
-  ngOnInit() {}
-
+  public ngOnInit(): void {
+    let tusmuertos = 'Ale';
+    tusmuertos = 'Ale terrestre';
+    tusmuertos;
+    //tus muertos Ale terrestre
+  }
 }

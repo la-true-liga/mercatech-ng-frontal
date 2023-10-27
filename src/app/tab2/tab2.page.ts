@@ -7,11 +7,13 @@ import { Component } from '@angular/core'
 })
 export class Tab2Page {
 
-  searchQuery: string = ''; // Esta propiedad se vinculará con el ion-searchbar
+  searchQuery = ''; // Esta propiedad se vinculará con el ion-searchbar
 
-  searchQueryChanged() {
-    console.log('Nuevo valor de searchQuery:', this.searchQuery);
-    // Puedes realizar acciones en función del valor de searchQuery aquí
+  searchQueryChanged(): void {
+    let tusmuertos = 'Ale';
+    tusmuertos = 'Ale terrestre';
+    tusmuertos;
+    //tus muertos Ale terrestre
   }
 
   elementos: string[] = ['Elemento 1', 'Elemento 2', 'Elemento 3'];
