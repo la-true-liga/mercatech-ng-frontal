@@ -1,21 +1,23 @@
-import { ChipItemComponent } from '../chip-item/chip-item.component'
 import { CommonModule } from '@angular/common'
-import { ExploreContainerComponentModule } from '../explore-container/explore-container.module'
 import { FormsModule } from '@angular/forms'
 import { IonicModule } from '@ionic/angular'
-import { ListItemComponent } from '../list-item/list-item.component'
 import { NgModule } from '@angular/core'
 import { Tab2Page } from './tab2.page'
 import { Tab2PageRoutingModule } from './tab2-routing.module'
+import { ChipItemModule } from '../../components/chip-item/chip-item.module'
+import { ListItemModule } from '../../components/list-item/list-item.module'
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
-    ExploreContainerComponentModule,
-    Tab2PageRoutingModule
+    Tab2PageRoutingModule,
+    ChipItemModule,
+    ListItemModule,
   ],
-  declarations: [Tab2Page, ChipItemComponent, ListItemComponent]
+  declarations: [
+    Tab2Page,
+  ]
 })
 export class Tab2PageModule {}
