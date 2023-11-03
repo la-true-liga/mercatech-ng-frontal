@@ -6,7 +6,7 @@ import { Component } from '@angular/core'
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-  public items: Array<unknown> = [
+  public items: Array<any> = [
     { name: 'Maruja' },
     { name: 'Pepe' },
     { name: 'Paqui' },
