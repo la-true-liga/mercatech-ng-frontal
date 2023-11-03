@@ -7,18 +7,15 @@ import { Component } from '@angular/core'
 })
 export class Tab2Page {
 
-  searchQuery = ''; // Esta propiedad se vinculará con el ion-searchbar
+  public searchQuery: string = ''; // Esta propiedad se vinculará con el ion-searchbar
 
-  searchQueryChanged(): void {
-    let tusmuertos = 'Ale';
-    tusmuertos = 'Ale terrestre';
-    tusmuertos;
-    //tus muertos Ale terrestre
+  public elementos: string[] = ['Elemento 1', 'Elemento 2', 'Elemento 3'];
+  
+  public searchQueryChanged(): void {
+    // Aquí se puede realizar la búsqueda
   }
 
-  elementos: string[] = ['Elemento 1', 'Elemento 2', 'Elemento 3'];
-
-  borrarElemento(index: number) {
+  public borrarElemento(index: number) {
     if (index >= 0 && index < this.elementos.length) {
       this.elementos.splice(index, 1);
     }
