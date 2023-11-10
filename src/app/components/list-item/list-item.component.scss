@@ -1,0 +1,21 @@
+ion-label {
+  flex: 1;
+  margin-right: 8px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.decrement-button,
+.increment-button {
+  background-color: lightgray;
+  margin: 0 5px;
+}
+
+.counter {
+  font-weight: bold;
+  font-size: 20px;
+}
