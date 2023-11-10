@@ -1,7 +1,7 @@
 {
   "name": "mercatech",
-  "version": "0.1.0-development",
-  "author": "Ionic Framework",
+  "version": "0.3.0-development",
+  "author": "La True Liga",
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
