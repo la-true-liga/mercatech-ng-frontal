@@ -2,11 +2,11 @@ import { ComponentFixture, TestBed } from '@angular/core/testing'
 
 // import { ExploreContainerComponentModule } from '../explore-container/explore-container.module'
 
-import { Tab2Page } from './tab2.page'
+import { ItemsPage } from './items.page'
 
 describe('Tab2Page', () => {
-  let component: Tab2Page
-  let fixture: ComponentFixture<Tab2Page>
+  let component: ItemsPage
+  let fixture: ComponentFixture<ItemsPage>
 
   beforeEach(async () => {
     // await TestBed.configureTestingModule({
@@ -14,7 +14,7 @@ describe('Tab2Page', () => {
     //   imports: [IonicModule.forRoot(), ExploreContainerComponentModule]
     // }).compileComponents()
 
-    fixture = TestBed.createComponent(Tab2Page)
+    fixture = TestBed.createComponent(ItemsPage)
     component = fixture.componentInstance
     fixture.detectChanges()
   })
