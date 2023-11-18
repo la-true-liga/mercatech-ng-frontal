@@ -2,6 +2,7 @@ import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
 import { ListItemComponent } from './list-item.component';
+import { AppTranslatorModule } from 'src/app/app-translator.module';
 
 describe('ListItemComponent', () => {
   let component: ListItemComponent;
@@ -10,7 +11,7 @@ describe('ListItemComponent', () => {
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ ListItemComponent ],
-      imports: [IonicModule.forRoot()]
+      imports: [IonicModule.forRoot(), AppTranslatorModule]
     }).compileComponents();
 
     fixture = TestBed.createComponent(ListItemComponent);
