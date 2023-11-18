@@ -20,7 +20,7 @@
     <app-chip-item *ngFor="let category of categories" [chipText]="'CATEGORY.' + category | translate"></app-chip-item>
   </ion-row>
   <ion-content>
-    <app-list-item *ngFor="let element of elements; let i = index" [itemText]="element"
+    <app-list-item *ngFor="let item of items; let i = index" [item]="item"
       (deleteItem)="deleteElement(i)"></app-list-item>
   </ion-content>
 </ion-content>
