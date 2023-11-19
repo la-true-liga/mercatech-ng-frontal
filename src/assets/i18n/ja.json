@@ -1,0 +1,24 @@
+{
+    "TABS": {
+        "ITEMS": "製品"
+    },
+    "ITEMS": {
+        "TITLE": "製品リスト",
+        "SEARCH": {
+            "PLACEHOLDER": "名前で検索"
+        }
+    },
+    "ITEM": {
+        "DELETE": "消去"
+    },
+    "CATEGORY": {
+        "MEAT": "肉",
+        "FISH": "魚",
+        "SEAFOOD": "シーフード",
+        "VEGETABLES": "野菜",
+        "FRUIT": "フルーツ",
+        "DAIRY": "乳製品",
+        "SWEET": "甘い",
+        "OTHER": "他の"
+    }
+}

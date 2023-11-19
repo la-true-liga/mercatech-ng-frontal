@@ -1,0 +1,24 @@
+{
+    "TABS": {
+        "ITEMS": "Productos"
+    },
+    "ITEMS": {
+        "TITLE": "Listado de Productos",
+        "SEARCH": {
+            "PLACEHOLDER": "Buscar por nombre"
+        }
+    },
+    "ITEM": {
+        "DELETE": "Borrar"
+    },
+    "CATEGORY": {
+        "MEAT": "Carnes",
+        "FISH": "Pescados",
+        "SEAFOOD": "Mariscos",
+        "VEGETABLES": "Verduras",
+        "FRUIT": "Frutas",
+        "DAIRY": "Lácteos",
+        "SWEET": "Dulces",
+        "OTHER": "Otros"
+    }
+}

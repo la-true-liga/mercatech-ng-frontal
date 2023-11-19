@@ -1,0 +1,24 @@
+{
+    "TABS": {
+        "ITEMS": "Productes"
+    },
+    "ITEMS": {
+        "TITLE": "Llista de productes",
+        "SEARCH": {
+            "PLACEHOLDER": "Cerca per nom"
+        }
+    },
+    "ITEM": {
+        "DELETE": "Suprimeix"
+    },
+    "CATEGORY": {
+        "MEAT": "Carns",
+        "FISH": "Peixos",
+        "SEAFOOD": "Mariscs",
+        "VEGETABLES": "Verdures",
+        "FRUIT": "Fruites",
+        "DAIRY": "Lleteres",
+        "SWEET": "Dolços",
+        "OTHER": "Altres"
+    }
+}

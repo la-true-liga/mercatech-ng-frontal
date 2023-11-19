@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      {{ 'TAB1.TITLE' | translate }}
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -12,8 +12,4 @@
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <app-budget *ngFor="let item of items"
-    [name]="item.name"
-    ></app-budget>
 </ion-content>

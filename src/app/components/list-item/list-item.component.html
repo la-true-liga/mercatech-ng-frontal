@@ -1,7 +1,7 @@
 <ion-list>
   <ion-item>
     <ion-label>{{ itemText }}</ion-label>
-    <ion-button (click)="onDeleteClick()" slot="start">Borrar</ion-button>
+    <ion-button (click)="onDeleteClick()" slot="start">{{ 'ITEM.DELETE' | translate }}</ion-button>
     <ion-row class="button-row">
       <ion-button (click)="decrement()" class="decrement-button">-</ion-button>
       <span class="counter">{{ counter }}</span>
