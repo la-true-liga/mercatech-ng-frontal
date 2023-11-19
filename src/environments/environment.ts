@@ -5,7 +5,8 @@
 import { Environment } from './enviroment-type.interface'
 
 export const environment: Environment = {
-  production: false
+  production: false,
+  mercatechApi: 'http://example/'
 }
 
 /*

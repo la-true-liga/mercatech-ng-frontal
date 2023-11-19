@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core'
+import { Item } from 'src/app/interfaces/items/item'
 
 const MAX_VALUE: number = 100
 const MIN_VALUE: number = 1
@@ -10,7 +11,7 @@ const MIN_VALUE: number = 1
 })
 
 export class ListItemComponent {
-  @Input() public itemText!: string
+  @Input() public item!: Item
 
   public counter: number = 1
 
